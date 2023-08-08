@@ -1,49 +1,30 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="21701" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="jil-Lz-w99">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="21701" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="XNL-Oz-Go0">
     <device id="retina6_12" orientation="portrait" appearance="light"/>
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21678"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21679"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="System colors in document resources" minToolsVersion="11.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
         <!--Navigation Controller-->
-        <scene sceneID="UuS-4B-4QA">
+        <scene sceneID="gNa-5d-gKJ">
             <objects>
-                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="jil-Lz-w99" sceneMemberID="viewController">
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="XNL-Oz-Go0" sceneMemberID="viewController">
                     <toolbarItems/>
-                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="H8y-Lb-kNQ">
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="uJE-Mg-7fg">
                         <rect key="frame" x="0.0" y="59" width="393" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
                     </navigationBar>
                     <nil name="viewControllers"/>
                     <connections>
-                        <segue destination="BYZ-38-t0r" kind="relationship" relationship="rootViewController" id="RSM-zp-Xtq"/>
+                        <segue destination="buF-p3-hgH" kind="relationship" relationship="rootViewController" id="WsR-hN-5v9"/>
                     </connections>
                 </navigationController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="MSv-Lx-diN" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="G1H-ai-9Dz" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="190" y="4"/>
-        </scene>
-        <!--Registration View Controller-->
-        <scene sceneID="tne-QT-ifu">
-            <objects>
-                <viewController storyboardIdentifier="RegistrationViewController" id="BYZ-38-t0r" customClass="RegistrationViewController" customModule="Birthday_Reminder__UIKit_Home_work_5_" customModuleProvider="target" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
-                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
-                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
-                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
-                    </view>
-                    <navigationItem key="navigationItem" id="CKY-Op-g0a"/>
-                    <connections>
-                        <segue destination="buF-p3-hgH" kind="show" identifier="goToBirthdaysListViewController" id="iFu-sV-SjW"/>
-                    </connections>
-                </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="1066.4122137404579" y="3.5211267605633805"/>
+            <point key="canvasLocation" x="2732.06106870229" y="3.5211267605633805"/>
         </scene>
         <!--Birthdays List View Controller-->
         <scene sceneID="axB-zF-U9Y">
@@ -59,7 +40,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="hnh-Ed-bf0" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1805.3435114503816" y="3.5211267605633805"/>
+            <point key="canvasLocation" x="3658.7786259541981" y="3.5211267605633805"/>
         </scene>
         <!--Person Profile View Controller-->
         <scene sceneID="jbE-YG-CnS">
@@ -75,7 +56,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="C1I-yq-wCO" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2553.4351145038167" y="3.5211267605633805"/>
+            <point key="canvasLocation" x="4406.8702290076335" y="3.5211267605633805"/>
         </scene>
     </scenes>
     <resources>

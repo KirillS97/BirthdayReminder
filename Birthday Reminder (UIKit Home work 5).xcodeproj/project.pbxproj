@@ -7,9 +7,17 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		ED7965A22A4B4C2D00361D26 /* setUpDatePickerOfBDayDate.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED7965A12A4B4C2D00361D26 /* setUpDatePickerOfBDayDate.swift */; };
+		ED7965A42A4B53A800361D26 /* setUpGenderPicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED7965A32A4B53A800361D26 /* setUpGenderPicker.swift */; };
+		ED7965A62A4C216000361D26 /* ExtensionForUITextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED7965A52A4C216000361D26 /* ExtensionForUITextView.swift */; };
+		ED89F65B2A49C084005F2F4A /* UIPersonCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED89F65A2A49C084005F2F4A /* UIPersonCard.swift */; };
+		ED89F67D2A49F938005F2F4A /* TableViewCellForPersonCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED89F67C2A49F938005F2F4A /* TableViewCellForPersonCard.swift */; };
+		ED89F6802A4B0614005F2F4A /* PersonProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED89F67F2A4B0614005F2F4A /* PersonProfileView.swift */; };
+		ED9E4A682A81174D003C4274 /* Data Base.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = ED9E4A662A81174D003C4274 /* Data Base.xcdatamodeld */; };
+		ED9E4A6A2A811766003C4274 /* CoreDataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED9E4A692A811766003C4274 /* CoreDataManager.swift */; };
+		ED9E4A6C2A811866003C4274 /* PersonEntity.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED9E4A6B2A811866003C4274 /* PersonEntity.swift */; };
 		EDD044182A2629ED003D3DF1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDD044172A2629ED003D3DF1 /* AppDelegate.swift */; };
 		EDD0441A2A2629ED003D3DF1 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDD044192A2629ED003D3DF1 /* SceneDelegate.swift */; };
-		EDD0441C2A2629ED003D3DF1 /* RegistrationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDD0441B2A2629ED003D3DF1 /* RegistrationViewController.swift */; };
 		EDD0441F2A2629ED003D3DF1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EDD0441D2A2629ED003D3DF1 /* Main.storyboard */; };
 		EDD044212A2629F2003D3DF1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EDD044202A2629F2003D3DF1 /* Assets.xcassets */; };
 		EDD044242A2629F2003D3DF1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EDD044222A2629F2003D3DF1 /* LaunchScreen.storyboard */; };
@@ -17,15 +25,21 @@
 		EDD0442F2A262C5B003D3DF1 /* PersonProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDD0442E2A262C5B003D3DF1 /* PersonProfileViewController.swift */; };
 		EDD044312A262CFD003D3DF1 /* Model of Person.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDD044302A262CFD003D3DF1 /* Model of Person.swift */; };
 		EDD044342A262F94003D3DF1 /* UIViews.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDD044332A262F94003D3DF1 /* UIViews.swift */; };
-		EDD044362A262FC5003D3DF1 /* ExtensionForUIImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDD044352A262FC5003D3DF1 /* ExtensionForUIImage.swift */; };
-		EDD044382A263064003D3DF1 /* ModelOfUser.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDD044372A263064003D3DF1 /* ModelOfUser.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		ED7965A12A4B4C2D00361D26 /* setUpDatePickerOfBDayDate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = setUpDatePickerOfBDayDate.swift; sourceTree = "<group>"; };
+		ED7965A32A4B53A800361D26 /* setUpGenderPicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = setUpGenderPicker.swift; sourceTree = "<group>"; };
+		ED7965A52A4C216000361D26 /* ExtensionForUITextView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExtensionForUITextView.swift; sourceTree = "<group>"; };
+		ED89F65A2A49C084005F2F4A /* UIPersonCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIPersonCard.swift; sourceTree = "<group>"; };
+		ED89F67C2A49F938005F2F4A /* TableViewCellForPersonCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewCellForPersonCard.swift; sourceTree = "<group>"; };
+		ED89F67F2A4B0614005F2F4A /* PersonProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersonProfileView.swift; sourceTree = "<group>"; };
+		ED9E4A672A81174D003C4274 /* Data Base.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = "Data Base.xcdatamodel"; sourceTree = "<group>"; };
+		ED9E4A692A811766003C4274 /* CoreDataManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreDataManager.swift; sourceTree = "<group>"; };
+		ED9E4A6B2A811866003C4274 /* PersonEntity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersonEntity.swift; sourceTree = "<group>"; };
 		EDD044142A2629ED003D3DF1 /* Birthday Reminder (UIKit Home work 5).app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Birthday Reminder (UIKit Home work 5).app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		EDD044172A2629ED003D3DF1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		EDD044192A2629ED003D3DF1 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		EDD0441B2A2629ED003D3DF1 /* RegistrationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegistrationViewController.swift; sourceTree = "<group>"; };
 		EDD0441E2A2629ED003D3DF1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		EDD044202A2629F2003D3DF1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		EDD044232A2629F2003D3DF1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -34,8 +48,6 @@
 		EDD0442E2A262C5B003D3DF1 /* PersonProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersonProfileViewController.swift; sourceTree = "<group>"; };
 		EDD044302A262CFD003D3DF1 /* Model of Person.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Model of Person.swift"; sourceTree = "<group>"; };
 		EDD044332A262F94003D3DF1 /* UIViews.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIViews.swift; sourceTree = "<group>"; };
-		EDD044352A262FC5003D3DF1 /* ExtensionForUIImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExtensionForUIImage.swift; sourceTree = "<group>"; };
-		EDD044372A263064003D3DF1 /* ModelOfUser.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModelOfUser.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -49,6 +61,20 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		ED89F67E2A4AEC3C005F2F4A /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				ED7965A52A4C216000361D26 /* ExtensionForUITextView.swift */,
+				EDD044332A262F94003D3DF1 /* UIViews.swift */,
+				ED89F65A2A49C084005F2F4A /* UIPersonCard.swift */,
+				ED89F67C2A49F938005F2F4A /* TableViewCellForPersonCard.swift */,
+				ED89F67F2A4B0614005F2F4A /* PersonProfileView.swift */,
+				ED7965A12A4B4C2D00361D26 /* setUpDatePickerOfBDayDate.swift */,
+				ED7965A32A4B53A800361D26 /* setUpGenderPicker.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
 		EDD0440B2A2629ED003D3DF1 = {
 			isa = PBXGroup;
 			children = (
@@ -70,14 +96,14 @@
 			children = (
 				EDD044172A2629ED003D3DF1 /* AppDelegate.swift */,
 				EDD044192A2629ED003D3DF1 /* SceneDelegate.swift */,
-				EDD044352A262FC5003D3DF1 /* ExtensionForUIImage.swift */,
-				EDD044332A262F94003D3DF1 /* UIViews.swift */,
 				EDD044322A262D0A003D3DF1 /* Models */,
+				ED89F67E2A4AEC3C005F2F4A /* Views */,
 				EDD0442B2A262B4A003D3DF1 /* View controllers */,
 				EDD0441D2A2629ED003D3DF1 /* Main.storyboard */,
 				EDD044202A2629F2003D3DF1 /* Assets.xcassets */,
 				EDD044222A2629F2003D3DF1 /* LaunchScreen.storyboard */,
 				EDD044252A2629F2003D3DF1 /* Info.plist */,
+				ED9E4A662A81174D003C4274 /* Data Base.xcdatamodeld */,
 			);
 			path = "Birthday Reminder (UIKit Home work 5)";
 			sourceTree = "<group>";
@@ -85,7 +111,6 @@
 		EDD0442B2A262B4A003D3DF1 /* View controllers */ = {
 			isa = PBXGroup;
 			children = (
-				EDD0441B2A2629ED003D3DF1 /* RegistrationViewController.swift */,
 				EDD0442C2A262B7B003D3DF1 /* BirthdaysListViewController.swift */,
 				EDD0442E2A262C5B003D3DF1 /* PersonProfileViewController.swift */,
 			);
@@ -95,8 +120,9 @@
 		EDD044322A262D0A003D3DF1 /* Models */ = {
 			isa = PBXGroup;
 			children = (
-				EDD044372A263064003D3DF1 /* ModelOfUser.swift */,
 				EDD044302A262CFD003D3DF1 /* Model of Person.swift */,
+				ED9E4A692A811766003C4274 /* CoreDataManager.swift */,
+				ED9E4A6B2A811866003C4274 /* PersonEntity.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -172,15 +198,21 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				EDD0441C2A2629ED003D3DF1 /* RegistrationViewController.swift in Sources */,
-				EDD044362A262FC5003D3DF1 /* ExtensionForUIImage.swift in Sources */,
+				ED9E4A682A81174D003C4274 /* Data Base.xcdatamodeld in Sources */,
+				ED89F6802A4B0614005F2F4A /* PersonProfileView.swift in Sources */,
 				EDD044342A262F94003D3DF1 /* UIViews.swift in Sources */,
 				EDD044312A262CFD003D3DF1 /* Model of Person.swift in Sources */,
 				EDD044182A2629ED003D3DF1 /* AppDelegate.swift in Sources */,
+				ED89F67D2A49F938005F2F4A /* TableViewCellForPersonCard.swift in Sources */,
+				ED9E4A6C2A811866003C4274 /* PersonEntity.swift in Sources */,
+				ED7965A22A4B4C2D00361D26 /* setUpDatePickerOfBDayDate.swift in Sources */,
 				EDD0442F2A262C5B003D3DF1 /* PersonProfileViewController.swift in Sources */,
 				EDD0441A2A2629ED003D3DF1 /* SceneDelegate.swift in Sources */,
+				ED7965A62A4C216000361D26 /* ExtensionForUITextView.swift in Sources */,
+				ED89F65B2A49C084005F2F4A /* UIPersonCard.swift in Sources */,
+				ED7965A42A4B53A800361D26 /* setUpGenderPicker.swift in Sources */,
+				ED9E4A6A2A811766003C4274 /* CoreDataManager.swift in Sources */,
 				EDD0442D2A262B7B003D3DF1 /* BirthdaysListViewController.swift in Sources */,
-				EDD044382A263064003D3DF1 /* ModelOfUser.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -398,6 +430,19 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		ED9E4A662A81174D003C4274 /* Data Base.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				ED9E4A672A81174D003C4274 /* Data Base.xcdatamodel */,
+			);
+			currentVersion = ED9E4A672A81174D003C4274 /* Data Base.xcdatamodel */;
+			path = "Data Base.xcdatamodeld";
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = EDD0440C2A2629ED003D3DF1 /* Project object */;
 }
